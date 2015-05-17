@@ -1,0 +1,33 @@
+{
+	"name": "MiP-LeapMotion-Littlebits",
+	"description": "A MiP Controller",
+	"version": "0.1.0",
+	"repository": "rlyle78/Mip-LeapMotion-Littlebits",
+	"dependencies": {
+		"cylon" : "",
+		"cylon-firmata" : "",
+		"cylon-gpio" : "",
+		"cylon-leapmotion" : "",
+		"cylon-api-socketio" : "",
+		"cylon-ble" : "",
+		"cylon-mip" : ""
+	},
+	"files": [
+		"LICENSE",
+		"README.md"
+	],
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"contributors": [
+		"Ron Dagdag <rlyle78@gmail.com>"
+	],
+	"license": "MIT",
+	"scripts": {
+		"start": "node server/index.js"
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rlyle78/Mip-LeapMotion-Littlebits.git"
+    }
+}
